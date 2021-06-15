@@ -68,13 +68,13 @@ body {
 .cell.x::after,
 .cell.cell.circle::before
  {
-    background-color: black;
+    background-color: rgb(76, 224, 31);
 }
 
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after ,
 .board.circle .cell:not(.x):not(.circle):hover::before{
-    background-color:lightgrey;
+    background-color:rgb(183, 226, 162);
 
 }
 
